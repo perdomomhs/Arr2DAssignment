@@ -167,13 +167,15 @@ public class Problems{
     }
 
     //Reserves the parking spots from the list of numbers by setting them to "occupied".
-    public void  reserveSpots(ParkingSpot[][] spots, int[]  numbers){
+    public static void  reserveSpots(ParkingSpot[][] spots, int[]  numbers){
 
     }
 
     //Finds the closest unoccupied spot
-    public void betSpot(ParkingSpot[][] spots){
+    public static ParkingSpot bestSpot(ParkingSpot[][] spots){
+        
 
+        return null;
     }  
 
 }

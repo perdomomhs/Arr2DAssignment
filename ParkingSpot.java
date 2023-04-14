@@ -30,8 +30,8 @@ public class ParkingSpot {
     }
 
     public boolean equals(Object o){
-        ParkingSpot ps = (ParkingSpot)o;
-        return number == ps.number;
+     
+        return number == ((ParkingSpot)o).number;
     }
 
 
