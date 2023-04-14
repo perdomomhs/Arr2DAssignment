@@ -167,7 +167,7 @@ public class Problems{
     }
 
     //Reserves the parking spots from the list of numbers by setting them to "occupied".
-    public static void  reserveSpots(ParkingSpot[][] spots, int[]  numbers){
+    public static void reserveSpots(ParkingSpot[][] spots, int[]  numbers){
 
     }
 
