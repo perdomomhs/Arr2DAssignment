@@ -14,7 +14,9 @@ public class Test {
         int[][] arr4 = {{-1,1,0,0},
                         {-2,-2,0,4},
                         {-1,2,-2,0}};
-        int [][]  arr5 = {{1,1,1},{3,1,-2},{2,-2,1}};
+        int [][]  arr5 = {{-2,-2,1},
+                          {3,-2,-2},
+                          {2,-2,1}};
 
         
         assert Problems.mean(arr1) == 5;
@@ -47,6 +49,7 @@ public class Test {
         assert Problems.oddRowsAndCols(arr3) == 0;
         assert Problems.oddRowsAndCols(arr4) == 1;
         assert Problems.countUntilNegative(arr2) == -1;
+        assert Problems.countUntilNegative(arr5) == 5;
 
         ParkingSpot[][] spots = new ParkingSpot[3][3];
         spots[0][0] = new ParkingSpot(4, 10); spots[0][0].setOccupied();
