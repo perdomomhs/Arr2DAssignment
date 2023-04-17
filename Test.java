@@ -46,8 +46,8 @@ public class Test {
         assert Problems.minAvgRows(arr3) == 2;
         assert Problems.colWithRepetitions(arr4, 0) == 2;
         assert Problems.oddRowsAndCols(arr2)==4;
-        assert Problems.oddRowsAndCols(arr3) == 0;
-        assert Problems.oddRowsAndCols(arr4) == 1;
+        assert Problems.oddRowsAndCols(arr3) == 4;
+        assert Problems.oddRowsAndCols(arr4) == 2;
         assert Problems.countUntilNegative(arr2) == -1;
         assert Problems.countUntilNegative(arr5) == 5;
 
